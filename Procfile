@@ -1,0 +1,1 @@
+web: gunicorn sistema_de_asistesia_DUOC_UC.wsgi --log-file-
