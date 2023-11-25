@@ -25,7 +25,7 @@ SECRET_KEY = 'qwa+@atxa^9s9yz#+_fhilw0+nslz57np*$cxcakld4$wgxs^v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #no se te olvide 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["proyecto-portafolio-2-production.up.railway.app"]
 
