@@ -1,7 +1,8 @@
 from django.contrib import admin
-from django.urls import path, incluide
+from django.urls import path, include
+from . import views 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', incluide('sistema_de_asistesia_DUOC_UC.urls'))
+    path('index/', views.index.html, name='index'),
 ]

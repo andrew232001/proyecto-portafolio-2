@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Docente Duoc UC</title>
+  <link rel="stylesheet" href="staticfiles\css\styles.css">
+</head>
+<body>
+ 
+  <div class="aling-logo">
+    <img class ="logo" src="staticfiles\img\logo.png" alt="Logo de Duoc UC">
+      <form id="loginForm">
+        <H1>Iniciar Sesion</H1>
+        <label for="username">Usuario:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Contraseña:</label>
+        <div class="password-container">
+          <input type="password" id="password" name="password" required>
+          <span class="password-toggle-btn" onclick="togglePassword()">👁️</span>
+        </div>
+
+        <button class= "BTsesion" type="submit">Iniciar Sesion</button>
+      </form>
+  </div>
+  <script src="staticfiles\javascript\script.js"></script>
+
+</body>
+</html>
