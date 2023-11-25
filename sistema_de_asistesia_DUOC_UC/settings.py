@@ -58,7 +58,7 @@ ROOT_URLCONF = 'sistema_de_asistesia_DUOC_UC.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'sistema_de_asistesia_DUOC_UC', 'templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'Templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
