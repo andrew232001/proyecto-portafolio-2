@@ -24,8 +24,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'qwa+@atxa^9s9yz#+_fhilw0+nslz57np*$cxcakld4$wgxs^v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#no se te olvide 
-DEBUG = True
+#no se te olvide en false
+DEBUG = False
 
 ALLOWED_HOSTS = ["proyecto-portafolio-2-production.up.railway.app"]
 
