@@ -123,10 +123,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/staticfiles/'
-
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles/')
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'staticfiles/')]
 
-STATICFILES_DIR = [os.path.join(BASE_DIR, 'staticfiles/')] 
 
 #debo borrar este codigo
 CSRF_TRUSTED_ORIGINS = ['https://proyecto-portafolio-2-production.up.railway.app']
