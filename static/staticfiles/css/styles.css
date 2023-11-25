@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #3498db, #f1c40f); /* Degradado de azul a amarillo */
+  color: #ffffff; /* Color de texto en contraste */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+.logo {
+  width: 250px;
+  height: auto;
+  margin-left: 100px;
+}
+.aling_logo{
+ align-items: center;
+}
+
+  form {
+    background-color: #27638b;
+    margin: 50px;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    align-content: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+
+  .BTsesion{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background-color: #ecc62c;
+    border-radius: 30px;
+    color: #918f8f;
+  }
+  
+  .password-container {
+    position: relative;
+  }
+  
+  .password-toggle-btn {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
