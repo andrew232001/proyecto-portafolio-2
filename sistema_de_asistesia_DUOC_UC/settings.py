@@ -24,7 +24,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'qwa+@atxa^9s9yz#+_fhilw0+nslz57np*$cxcakld4$wgxs^v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+#no se te olvide 
+DEBUG = False
 
 ALLOWED_HOSTS = ["proyecto-portafolio-2-production.up.railway.app"]
 
@@ -122,9 +123,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/staticfiles/admin'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles/admin')
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'staticfiles/admin')]
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles/')
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static/')]
 
 
 #debo borrar este codigo
