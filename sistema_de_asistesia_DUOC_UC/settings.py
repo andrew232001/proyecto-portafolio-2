@@ -124,7 +124,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles/')
 
+STATICFILES_DIR = [os.path.join(BASE_DIR, 'staticfiles/')] 
 
+#debo borrar este codigo
 CSRF_TRUSTED_ORIGINS = ['https://proyecto-portafolio-2-production.up.railway.app']
