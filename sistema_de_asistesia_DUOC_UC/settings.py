@@ -128,4 +128,4 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'staticfiles/')]
 
 
 #debo borrar este codigo
-CSRF_TRUSTED_ORIGINS = ['https://proyecto-portafolio-2-production.up.railway.app']
+#CSRF_TRUSTED_ORIGINS = ['https://proyecto-portafolio-2-production.up.railway.app']
